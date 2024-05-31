@@ -1,0 +1,15 @@
+[package]
+name = "html_find"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.5.4", features = ["derive"] }
+error-chain = "0.12.4"
+quick-xml = "0.31.0"
+reqwest = "0.12.4"
+select = "0.6.0"
+serde = { version = "1.0.203", features = ["derive"] }
+serde_xml = "0.9.1"
+tokio = { version = "1.38.0", features = ["full"] }
+url = "2.5.0"
