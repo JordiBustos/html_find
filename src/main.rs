@@ -3,7 +3,6 @@ use error_chain::error_chain;
 use reqwest::StatusCode;
 use select::document::Document;
 use select::predicate::Name;
-use serde::Deserialize;
 use std::collections::{HashMap, HashSet};
 use url::{Position, Url};
 
